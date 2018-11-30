@@ -31,11 +31,8 @@ def convertMMtoIN(mm):
     return inches
 #print('The length of ' + userInches + 'in. is equal to ' + str(outputMM) + 'mm')
 #print('The length of ' + userMM + 'mm is equal to ' + str(outputInches) + 'in')
-def printResults(userInput, unitOfMeasuerment1, finalConversion, unitOfMeasuerment2):
-    print('The length of ' 
-    + userInput + unitOfMeasuerment1 
-    + ' is equal to ' + str(finalConversion) +
-    unitOfMeasuerment2)
+def printResults(userInput, finalConversion):
+    print(userInput + ' = ' + str(finalConversion))
 
 while True:
     # Ask user
@@ -50,11 +47,11 @@ while True:
     if userChoice == '1':
         userInches = input('What are the inches? ') # this returns type str
         outputMM = convertINtoMM(userInches)
-        printResults (userInches, 'in.', outputMM, 'mm')
+        printResults (userInches, outputMM)
     elif userChoice == '2':
         userMM = input('What are the mm? ') 
         outputInches = convertMMtoIN(userMM)
-        printResults(userMM, 'mm', outputInches, 'in')
+        printResults(userMM, outputInches)
     elif userChoice[0] == 'Q': #
         break
     else:
