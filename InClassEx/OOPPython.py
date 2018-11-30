@@ -1,27 +1,27 @@
 # ---------------Object--------------------
-# An Object has
-#   attribute
-#   behavior
-#
-# Example Object
-#   Vehicle
-#       attribute --> numOfDoors, extColor, type
-#       behaviour --> drive, park, crash
-#
+    # An Object has
+    #   attribute
+    #   behavior
+    #
+    # Example Object
+    #   Vehicle
+    #       attribute --> numOfDoors, extColor, type
+    #       behaviour --> drive, park, crash
+    #
 # ---------------Class---------------------
-# A Class is a blueprint of an Object
-# Example of a Class
+    # A Class is a blueprint of an Object
+    # Example of a Class
 import datetime
 class Vehicle:
+    #-----------Attributes
+        #class attributes --> This is an attribute that is assigned to every object
 
-    #class attributes --> This is an attribute that is assigned to every object
 
-
-    #instance attributes --> This is an attribute that is assigned to a specific object
-    # The first method in a class is a constructor __init__
-    # This method is executed everytime the class is called and a new object is created
-    # self -->is a reference to the object itself
-    #   If we call a method in a class the object itself is the first parameter
+        #instance attributes --> This is an attribute that is assigned to a specific object
+        # The first method in a class is a constructor __init__
+        # This method is executed everytime the class is called and a new object is created
+        # self -->is a reference to the object itself
+        #   If we call a method in a class the object itself is the first parameter
     def __init__(self, VIN, numOfDoors, passCode, buildDate):
         self.VIN        = VIN
         self.numOfDoors = numOfDoors
