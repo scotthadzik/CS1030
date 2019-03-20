@@ -19,16 +19,14 @@
 |- Index|-11|-10|-9 |-8 |-7 |-6 |-5 |-4 |-3 |-2 |-1 |
 
 ```python
-	# Select characters out of a string
-	school = 'Weber State'
-	print ('character 1 :')
-	print (school[0])
-	print ('character 4 :')
-	print (school[3])
-	print ('character 7 :')
-	print (school[-4])
-	
-
+# Select characters out of a string
+school = 'Weber State'
+print ('character 1 :')
+print (school[0])
+print ('character 4 :')
+print (school[3])
+print ('character 7 :')
+print (school[-4])
 ```
 
 [More info on Strings](https://realpython.com/python-strings/)
