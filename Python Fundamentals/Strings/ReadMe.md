@@ -1,13 +1,13 @@
  # Advanced Strings
- ## Strings are just a list of characters
+ ## Strings -- List of Characters
 
->- Characters can be: 
->    - Letters  ` [A-Za-z] `
->	  - Numbers  ` [0-9] `
->	  - Symbols  ` @ $ # ~ `
->	    - [Unicode Characters Site](https://pythonforundergradengineers.com/unicode-characters-in-python.html)
->	  - Spaces   `_ _`
->	  - Escape Character `\n \r \t`
+>Characters can be: 
+>  - Letters  ` [A-Za-z] `
+>  - Numbers  ` [0-9] `
+>  - Symbols  ` [@ $ # ~ ]`
+>  - [Unicode Characters Site](https://pythonforundergradengineers.com/unicode-characters-in-python.html)
+>  - Spaces   `[' ']`
+>  - Escape Character `[\n \r \t]`
 
  ## String Indexing
 >- Each character has an index
