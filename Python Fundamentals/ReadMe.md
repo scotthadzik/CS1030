@@ -9,14 +9,6 @@
 |Fails imediately when run        |Inefficient    |
 |Very portable not dependent on OS|               |
 
-    - Advatages
-        - Easier to Debug
-        - Fails imediately when run
-            - compiled laguages may compile but not run
-        - Very portable all you need is the interpreter to run python
-    - Disadvantage
-        - Slower. Inefficient to compile code everytime you run it
-
 # Two Ways to Execute Python
  1. Real Time Interpreter
  2. create *.py file and run in the terminal
@@ -27,8 +19,11 @@
  > Strings are just a list of charecters
 
 - Characters can be: 
-    - Letters  ` A B C D `
-	- Numbers  ` 1 2 3 4 `
+    - Letters  ` [A-Za-z] `
+	- Numbers  ` [0-9] `
 	- Symbols  ` @ $ # ~ `
-	- Spaces
-	- Escape Character
+	    - [Unicode Characters Site](https://pythonforundergradengineers.com/unicode-characters-in-python.html)
+	- Spaces   `_ _`
+	- Escape Character `\n \r \t`
+
+[More info on Strings](https://realpython.com/python-strings/)
